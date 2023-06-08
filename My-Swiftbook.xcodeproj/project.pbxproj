@@ -9,21 +9,29 @@
 /* Begin PBXBuildFile section */
 		CC9597FC2A31D252007B47C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9597FB2A31D252007B47C9 /* AppDelegate.swift */; };
 		CC9597FE2A31D252007B47C9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9597FD2A31D252007B47C9 /* SceneDelegate.swift */; };
-		CC9598002A31D252007B47C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9597FF2A31D252007B47C9 /* ViewController.swift */; };
 		CC9598032A31D252007B47C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC9598012A31D252007B47C9 /* Main.storyboard */; };
 		CC9598052A31D253007B47C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC9598042A31D253007B47C9 /* Assets.xcassets */; };
 		CC9598082A31D253007B47C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC9598062A31D253007B47C9 /* LaunchScreen.storyboard */; };
+		CC9598112A31D961007B47C9 /* MyTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9598102A31D961007B47C9 /* MyTabBarController.swift */; };
+		CC9598142A31DA3F007B47C9 /* WelcomeToSwiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9598132A31DA3F007B47C9 /* WelcomeToSwiftViewController.swift */; };
+		CC9598182A31DAA1007B47C9 /* SwiftGuideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9598172A31DAA1007B47C9 /* SwiftGuideViewController.swift */; };
+		CC95981D2A31EC03007B47C9 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC95981C2A31EC03007B47C9 /* Extensions.swift */; };
+		CC9598302A327842007B47C9 /* GuidlinePresentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC95982F2A327842007B47C9 /* GuidlinePresentViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CC9597F82A31D252007B47C9 /* My-Swiftbook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My-Swiftbook.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC9597FB2A31D252007B47C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CC9597FD2A31D252007B47C9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CC9597FF2A31D252007B47C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CC9598022A31D252007B47C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CC9598042A31D253007B47C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC9598072A31D253007B47C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CC9598092A31D253007B47C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC9598102A31D961007B47C9 /* MyTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTabBarController.swift; sourceTree = "<group>"; };
+		CC9598132A31DA3F007B47C9 /* WelcomeToSwiftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeToSwiftViewController.swift; sourceTree = "<group>"; };
+		CC9598172A31DAA1007B47C9 /* SwiftGuideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftGuideViewController.swift; sourceTree = "<group>"; };
+		CC95981C2A31EC03007B47C9 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		CC95982F2A327842007B47C9 /* GuidlinePresentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuidlinePresentViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +64,59 @@
 		CC9597FA2A31D252007B47C9 /* My-Swiftbook */ = {
 			isa = PBXGroup;
 			children = (
+				CC9598202A31F154007B47C9 /*  Language Guide */,
 				CC9597FB2A31D252007B47C9 /* AppDelegate.swift */,
 				CC9597FD2A31D252007B47C9 /* SceneDelegate.swift */,
-				CC9597FF2A31D252007B47C9 /* ViewController.swift */,
 				CC9598012A31D252007B47C9 /* Main.storyboard */,
+				CC95980F2A31D933007B47C9 /* MyTabBarController */,
 				CC9598042A31D253007B47C9 /* Assets.xcassets */,
 				CC9598062A31D253007B47C9 /* LaunchScreen.storyboard */,
 				CC9598092A31D253007B47C9 /* Info.plist */,
 			);
 			path = "My-Swiftbook";
+			sourceTree = "<group>";
+		};
+		CC95980F2A31D933007B47C9 /* MyTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				CC9598122A31D9F6007B47C9 /* MyViewControllers */,
+			);
+			path = MyTabBarController;
+			sourceTree = "<group>";
+		};
+		CC9598122A31D9F6007B47C9 /* MyViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CC9598102A31D961007B47C9 /* MyTabBarController.swift */,
+				CC9598152A31DA58007B47C9 /* WelcomeToSwift */,
+				CC9598162A31DA79007B47C9 /* SwiftGuide */,
+			);
+			path = MyViewControllers;
+			sourceTree = "<group>";
+		};
+		CC9598152A31DA58007B47C9 /* WelcomeToSwift */ = {
+			isa = PBXGroup;
+			children = (
+				CC9598132A31DA3F007B47C9 /* WelcomeToSwiftViewController.swift */,
+			);
+			path = WelcomeToSwift;
+			sourceTree = "<group>";
+		};
+		CC9598162A31DA79007B47C9 /* SwiftGuide */ = {
+			isa = PBXGroup;
+			children = (
+				CC9598172A31DAA1007B47C9 /* SwiftGuideViewController.swift */,
+				CC95981C2A31EC03007B47C9 /* Extensions.swift */,
+			);
+			path = SwiftGuide;
+			sourceTree = "<group>";
+		};
+		CC9598202A31F154007B47C9 /*  Language Guide */ = {
+			isa = PBXGroup;
+			children = (
+				CC95982F2A327842007B47C9 /* GuidlinePresentViewController.swift */,
+			);
+			path = " Language Guide";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +190,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC9598002A31D252007B47C9 /* ViewController.swift in Sources */,
+				CC9598142A31DA3F007B47C9 /* WelcomeToSwiftViewController.swift in Sources */,
+				CC95981D2A31EC03007B47C9 /* Extensions.swift in Sources */,
+				CC9598112A31D961007B47C9 /* MyTabBarController.swift in Sources */,
+				CC9598302A327842007B47C9 /* GuidlinePresentViewController.swift in Sources */,
 				CC9597FC2A31D252007B47C9 /* AppDelegate.swift in Sources */,
 				CC9597FE2A31D252007B47C9 /* SceneDelegate.swift in Sources */,
+				CC9598182A31DAA1007B47C9 /* SwiftGuideViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
